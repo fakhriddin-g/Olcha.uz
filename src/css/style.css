@@ -1,0 +1,236 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Raleway', sans-serif;
+  height: 200vh;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.top__header{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  width: 100%;
+  height: 56px;
+  background-color: #da002b;
+}
+
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* ================================================================== */
+/* Top Header */
+
+.top-header__menu{
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.top-header__nav ul{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.top-header-btn{
+  display: block;
+  padding: 2px 10px;
+  border: 2px solid #fff;
+  height: 32px;
+  border-radius: 10px;
+}
+
+.top-header__nav .white_bg{
+  color: #da002b;
+  background-color: #fff;
+}
+
+.top-header__nav .site-map{
+  margin-left: 41px;
+}
+
+.top-header__action{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.top-header__action .top-header__tel{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.top-header__olcha-business{
+  padding: 6px 15px;
+  border: 2px solid #fff;
+  border-radius: 12px;
+}
+
+.top-header__language ul{
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 0 28px;
+  margin-left: 32px;
+  height: 56px;
+  border-left: 1px solid hsla(0,0%,100%,.3);
+  border-right: 1px solid hsla(0,0%,100%,.3);
+}
+
+
+/* ================================================================== */
+/* Bottom Header */
+
+.bottom__header{
+  width: 100%;
+  height: 104px;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-header__menu{
+  display: flex;
+}
+
+.bottom-header__logo{
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+
+/* ================================================================== */
+
+.bottom-header__catalog{
+  display: flex;
+  align-items: center;
+  border: 2px solid #111;
+  border-radius: 12px;
+  color: #111;
+  font-size: 18px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 1.33;
+  margin-right: auto;
+  padding: 15px 27px 15px 58px;
+  transition: all .3s ease 0s;
+  cursor: pointer;
+}
+
+/* ================================================================== */
+/* Search */
+
+.bottom-header__search{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 40px 0 24px;
+  position: relative;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 12px;
+}
+
+.bottom-header__search-input{
+  width: 100%;
+  height: 44px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  padding: 5px 30px;
+  font-size: 18px;
+}
+
+.bottom-header__search-button{
+  padding: 10px 24px;
+  border-radius: 12px;
+  border: 1px solid #f2f2f2;
+  background: #da002b;
+  cursor: pointer;
+}
+
+/* ================================================================== */
+/* bottom header action */
+
+.bottom-header__action{
+  display: flex;
+  align-items: center;
+}
+
+.action-item a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 32px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+  position: relative;
+  transition: all .3s ease 0s;
+}
+
+.action-item:last-child a{
+  margin-right: 0;
+}
+
+.bottom-action__item{
+  width: 24px;
+  height: 24px;
+}
+
+.bottom-header__action-cart .bottom-action__item span {
+  position: absolute;
+  top: -10px;
+  left: calc(50% + 7px);
+  padding: 2px 6px;
+  align-items: center;
+  background: #da002b;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+
+}
+
+.bottom-header__action-favorites a, .bottom-header__action-cart a{
+  stroke: #111;
+  fill: #fff;
+}
+
+.action-item a:hover{
+  stroke: #da002b;
+  color: #da002b;
+  transition: all .3s ease 0s;
+}
+
+.bottom-header__action-user a:hover, .bottom-header__action-comparison a:hover{
+  fill: #da002b;
+  transition: all .3s ease 0s;
+}
+
+
